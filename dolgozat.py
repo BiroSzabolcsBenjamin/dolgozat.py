@@ -8,7 +8,8 @@ print(list)
 #1
 atlagm= sum(list)/len(list)
 tizedes= atlagm
-print("Az osztály átlagmagassága: ",atlagm,"cm")
+
+print("Az osztály átlagmagassága: ",round(atlagm,2),"cm")
 
 #2
 print("Legmagasabb tanuló: ",max(list),"cm")
@@ -25,7 +26,6 @@ print("Egymás válára állva a tanulók magassága: ",torony,"m")
 
 #5
 #osztaly= list + 182
-#print("Osztály átlag az évközben érkezett tanulóval: ",sum(osztaly)/len(osztaly))
 
 
 #6
