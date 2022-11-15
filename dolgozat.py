@@ -6,7 +6,7 @@ list=[]
 for i in range(27):
     list.append(random.randint(160,200))
 
-print(list)
+print("Tanulók magassága",list)
 
 #1
 atlagm= sum(list)/len(list)
@@ -28,16 +28,19 @@ print("Egymás válára állva a tanulók magassága: ",torony,"m")
 
 
 #5
-ujtanulo=[182]
-ujosztaly= list + ujtanulo
-print("Új osztály magasság: ", ujosztaly)
+ujtanulo= [182]
+osztaly= list + ujtanulo
+print("Tanulók magasság az új tanulóval: ", osztaly)
 
 #6
-ujosztaly.sort()
-ujosztaly.reverse()
-print("Tornasorba rendezve: ",ujosztaly)
+osztaly.sort()
+osztaly.reverse()
+print("Tornasorba rendezve: ",osztaly)
 
 #7
-
+if(list==list):
+    print("Vannak egyformán magas tanulók")
+else:
+    print("Nincsenek egyformán magas tanulók")
 
 
