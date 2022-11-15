@@ -19,7 +19,7 @@ print("Legmagasabb tanuló: ",max(list),"cm")
 
 #3
 kul= max(list) - min(list)
-
+print("A legmagasabb és a legalacsonyabb tanuló közötti különbség: ",kul,"cm")
 
 #4
 torony= sum(list)
