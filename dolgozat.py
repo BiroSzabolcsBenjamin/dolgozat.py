@@ -1,4 +1,6 @@
 import random
+import math
+
 list=[]
 
 for i in range(27):
@@ -31,8 +33,8 @@ print("Egymás válára állva a tanulók magassága: ",torony,"m")
 #6
 list.sort()
 list.reverse()
-print(list)
-
+print("Tornasorba rendezve: ",list)
 
 #7
 
+print ()
